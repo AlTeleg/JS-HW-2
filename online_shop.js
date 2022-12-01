@@ -82,7 +82,3 @@ console.log(basket[0].good)
 console.log(basket[0].amount)
 
 console.log(getTotalCalcBasket())
-
-
-
-
