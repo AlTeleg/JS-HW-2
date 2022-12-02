@@ -53,7 +53,6 @@ new product(4, "shoes", "classic", [40, 42, 43], 300, true)
 new product(5, "table", "round", ["big", "small"], 500, false)
 
 
-
 console.log(catalog)
 
 addToBasket(1, 1)
