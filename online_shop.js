@@ -69,6 +69,7 @@ console.log(basket)
 addToBasket(2, 3)
 addToBasket(4, 2)
 
+console.log(basket)
 console.log(basket[0].good)
 console.log(basket[1].good)
 console.log(basket[0].amount)
@@ -78,6 +79,7 @@ console.log(getTotalCalcBasket())
 
 delFromBasket(4,2)
 
+console.log(basket)
 console.log(basket[0].good)
 console.log(basket[0].amount)
 
