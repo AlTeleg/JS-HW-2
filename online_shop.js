@@ -1,7 +1,7 @@
 var catalog = []
 var basket = []
 
-function product(id, name, description, sizes, price, vailable) {
+function Product(id, name, description, sizes, price, vailable) {
         catalog.push({
             id : Number(id),                        // Код товара
             name : String(name),                    // Наименование
@@ -46,11 +46,11 @@ function getTotalCalcBasket () {
     return {"totalSum": totalSum, "totalAmount": totalAmount}
 }
 
-new product(1, "TV", "cool", [32, 33, 38], 4500, true)
-new product(2, "dress", "long", [38, 40, 42], 800, false)
-new product(3, "motherboard", "new", ["atx"], 350, false)
-new product(4, "shoes", "classic", [40, 42, 43], 300, true)
-new product(5, "table", "round", ["big", "small"], 500, false)
+new Product(1, "TV", "cool", [32, 33, 38], 4500, true)
+new Product(2, "dress", "long", [38, 40, 42], 800, false)
+new Product(3, "motherboard", "new", ["atx"], 350, false)
+new Product(4, "shoes", "classic", [40, 42, 43], 300, true)
+new Product(5, "table", "round", ["big", "small"], 500, false)
 
 
 console.log(catalog)
