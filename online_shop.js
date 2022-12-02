@@ -14,7 +14,7 @@ function product(id, name, description, sizes, price, vailable) {
 
 function addToBasket(id, amount) {
             basket.push({
-                good : catalog[id-1],                  // Cсылка на товар в каталоге
+                good : catalog[id-1],               // Cсылка на товар в каталоге
                 amount : Number(amount),            // Количество товара в корзине
                 })
 }
