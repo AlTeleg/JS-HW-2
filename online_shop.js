@@ -43,7 +43,7 @@ function getTotalCalcBasket () {
         totalSum += position.good.price*position.amount;
         totalAmount += position.amount;
     }
-    return {"totalSum": totalSum, "totalAmount": totalAmount}
+    return {"totalSum": totalSum, "totalAmount": totalAmount};
 }
 
 new Product(1, "TV", "cool", [32, 33, 38], 4500, true)
