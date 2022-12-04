@@ -40,8 +40,8 @@ function getTotalCalcBasket () {
     let totalSum = 0;
     let totalAmount = 0;
     for (position of basket) {
-        totalSum += position.good.price*position.amount
-        totalAmount += position.amount
+        totalSum += position.good.price*position.amount;
+        totalAmount += position.amount;
     }
     return {"totalSum": totalSum, "totalAmount": totalAmount}
 }
